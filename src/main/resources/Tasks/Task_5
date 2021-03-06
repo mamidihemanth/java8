@@ -1,0 +1,9 @@
+Pre Conditions
+- Define a Product class with name, price, category, grade
+
+Bi-Function
+
+1. Given the name and price of the product, write a Bifunction to create a product.
+
+2. Given the Product and quantity of the products, write a Bi-Function to calculate the cost of products.
+A cart is a map of product and quantity. Given the cart, calculate the cost of the cart.
