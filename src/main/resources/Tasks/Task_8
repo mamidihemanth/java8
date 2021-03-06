@@ -1,0 +1,10 @@
+Pre Conditions
+- Define a Product class with name, price, category, grade
+- Define a Response class with response body, status code, response type
+
+
+1. From the given list of the products get all the products with price > 1000/-
+2. From the given list of the products get all the products from electronics category.
+3. From the given list of the products get all the products with price> 1000/- and from electronics category.
+Change the name of the result list into CAP letters before printing.
+4. Calculate the count of all electronic products in the given list of products.
