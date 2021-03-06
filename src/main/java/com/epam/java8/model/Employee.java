@@ -1,4 +1,4 @@
-package com.epam.java8.ExerciseOne;
+package com.epam.java8.model;
 
 public class Employee implements Comparable<Employee>{
 

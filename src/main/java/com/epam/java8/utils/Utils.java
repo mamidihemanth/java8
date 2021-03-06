@@ -1,7 +1,9 @@
-package com.epam.java8.ExerciseOne;
+package com.epam.java8.utils;
 
+import com.epam.java8.model.Employee;
+
+import java.util.Collections;
 import java.util.Comparator;
-import java.util.Map;
 
 public interface Utils {
 
@@ -27,5 +29,9 @@ public interface Utils {
 
     static Comparator<Employee> employeeComparatorDesc() {
         return (a, b) -> b.getName().compareTo(a.getName());
+    }
+
+    static Comparator<Integer> comparatorDesc() {
+        return Collections.reverseOrder();
     }
 }
